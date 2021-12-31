@@ -8,10 +8,7 @@ const quoteText = document.getElementById('quote');
 const trilogySelector = document.getElementById('trilogies');
 const darkSideLightSideSelector = document.getElementById('darkSideLightSide');
 
-//functions to randomly select trilogy and dark side or light side and the message to display
-
-const getTrilogy = () => trilogy[Math.round(Math.random() * 2)];
-const getDarkSideLightSide = () => darkSideLightSide[Math.round(Math.random())];
+//functions to randomly get number of quote to display
 const getQuoteNum = () => Math.round(Math.random() * 4) + 1;
 
 //function that runs when button is clicked to generate new quote
@@ -163,3 +160,5 @@ function getRandomQuote() {
 //add event listeners
 button.addEventListener("click",getRandomQuote);
 
+//set quote when window loads
+window.addEventListener("load",getRandomQuote);
