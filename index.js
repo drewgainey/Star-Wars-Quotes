@@ -113,7 +113,7 @@ if (randomDarkSideLightSide === 'Dark Side') {
             message = 'These blast points — too accurate for sandpeople. Only imperial stormtroopers are so precise.';
           break;
         case 4:
-            message = ' suggest a new strategy, R2. Let the Wookiee win.';
+            message = 'I suggest a new strategy, R2. Let the Wookiee win.';
           break;
         case 5:
             message = 'These arent the droids youre looking for.'

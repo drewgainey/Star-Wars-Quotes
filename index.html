@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet">
     <title>Star Wars Quotes</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Star Wars Quote Generator</h1>
+    </header>
+
+    <article>
+      <p>This isn't the quote you are looking for</p>
+    </article>
+
+    <section>
+      <h2>Generate New Quote</h2>
+
+      <label for="trilogies">Triology</label>
+      <select name="trilogies">
+        <option>Prequal</option>
+        <option selected="selected">Orginal</option>
+        <option>Sequel</option>
+      </select>
+
+      <label for="darkSideLightSide">Dark/Light Side</label>
+      <select name="darkSideLightSide">
+        <option>Dark Side</option>
+        <option selected="selected">Light Side</option>
+      </select>
+
+      <button>Generate Quote</button>
+
+    </section>
+  </body>
 </html>
