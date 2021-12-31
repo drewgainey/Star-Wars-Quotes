@@ -1,3 +1,28 @@
-h1{
-    
+@font-face {
+  font-family: starJedi;
+  src: url(./Starjedi.ttf);
+}
+
+:root {
+  --color-1: #d5cfb6;
+  --color-2: #9d9974;
+  --color-3: #3c3c20;
+  --color-4: #616640;
+  --color-5: #75934e;
+}
+
+body {
+  background-color: var(--color-1);
+  display: grid;
+  place-items: center;
+  font-family: starJedi;
+}
+h1 {
+  color: var(--color-3);
+  font-family: starJedi;
+}
+
+h2 {
+  color: var(--color-4);
+  font-family: starJedi;
 }
