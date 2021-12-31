@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style.css" rel="stylesheet">
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
     <title>Star Wars Quotes</title>
   </head>
   <body>
@@ -21,14 +21,14 @@
       <h2>Generate New Quote</h2>
 
       <label for="trilogies">Triology</label>
-      <select name="trilogies">
+      <select id="trilogies">
         <option>Prequal</option>
         <option selected="selected">Orginal</option>
         <option>Sequel</option>
       </select>
 
       <label for="darkSideLightSide">Dark/Light Side</label>
-      <select name="darkSideLightSide">
+      <select id="darkSideLightSide">
         <option>Dark Side</option>
         <option selected="selected">Light Side</option>
       </select>
